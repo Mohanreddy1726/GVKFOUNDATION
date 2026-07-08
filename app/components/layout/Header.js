@@ -91,10 +91,9 @@ export function Header() {
     return () => window.removeEventListener("scroll", fn);
   }, []);
   const navItems = [
-    { label: "About", anchor: "/foundation#about" },
-    { label: "Impact", anchor: "/foundation#impact" },
-    { label: "Stories", anchor: "/foundation#stories" },
-    { label: "Contact", anchor: "/foundation#contact" },
+    { label: "Stories", anchor: "/stories" },
+    { label: "Upcoming Events", anchor: "/events" },
+    { label: "Contact", anchor: "/contact" },
   ];
   return (
     <header

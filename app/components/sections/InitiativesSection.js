@@ -75,9 +75,6 @@ export function InitiativesSection() {
             );
           })}
         </div>
-        <Reveal className="mt-10 md:mt-14 flex justify-center" delay={100}>
-          <PillButton variant="dark">{t("initiatives.cta")} →</PillButton>
-        </Reveal>
       </div>
     </section>
   );

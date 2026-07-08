@@ -2,6 +2,7 @@
 import { useT } from "../../lib/i18n";
 import { Reveal } from "../primitives/Reveal";
 import { SectionLabel } from "../primitives/SectionLabel";
+import { PillButton } from "../primitives/PillButton";
 import { PhotoPlaceholder } from "../primitives/PhotoPlaceholder";
 import { SITE_IMAGES } from "../../lib/siteImages";
 
@@ -50,6 +51,9 @@ export function MomentsGallery() {
             );
           })}
         </div>
+        <Reveal className="mt-10 md:mt-14 flex justify-center" delay={100}>
+          <PillButton variant="dark">Explore Gallery →</PillButton>
+        </Reveal>
       </div>
     </section>
   );
