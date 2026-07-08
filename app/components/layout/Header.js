@@ -91,10 +91,10 @@ export function Header() {
     return () => window.removeEventListener("scroll", fn);
   }, []);
   const navItems = [
-    { label: "About", anchor: "#about" },
-    { label: "Impact", anchor: "#impact" },
-    { label: "Stories", anchor: "#stories" },
-    { label: "Contact", anchor: "#contact" },
+    { label: "About", anchor: "/foundation#about" },
+    { label: "Impact", anchor: "/foundation#impact" },
+    { label: "Stories", anchor: "/foundation#stories" },
+    { label: "Contact", anchor: "/foundation#contact" },
   ];
   return (
     <header
@@ -107,7 +107,7 @@ export function Header() {
       }}
     >
       <div className="mx-auto flex max-w-[1440px] items-center justify-between px-5 md:px-12 py-4 md:py-5 text-white">
-        <a href="/" className="flex items-center" aria-label="GVK Foundation — Home">
+        <a href="/foundation" className="flex items-center" aria-label="GVK Foundation — Home">
           <img
             src="https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/GVK%20foundation%20FULL%20LOGO%20LATEST%20png%20(1).png"
             alt="GVK Foundation"
