@@ -12,11 +12,15 @@ export const SITE_IMAGES = {
       src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/image_2026-06-27_132215544.png",
       alt: "Students in a digital learning session",
       tone: "cream",
+      // On hover, this still is replaced by the muted video below.
+      videoSrc: "/Image1.mp4",
     },
     image2: {
       src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/image_2026-06-27_132947979.png",
       alt: "Community members at a foundation event",
       tone: "navy",
+      // On hover, this still is replaced by the muted video below.
+      videoSrc: "/Image2.mp4",
     },
   },
 
@@ -36,18 +40,18 @@ export const SITE_IMAGES = {
 
   // ── Moments gallery ("Stories from the field" — 6 tiles) ─────────────────
   moments: {
-    1: { src: "", alt: "Moment 1", tone: "navy" },
-    2: { src: "", alt: "Moment 2", tone: "cream" },
-    3: { src: "", alt: "Moment 3", tone: "rust" },
-    4: { src: "", alt: "Moment 4", tone: "olive" },
-    5: { src: "", alt: "Moment 5", tone: "sand" },
-    6: { src: "", alt: "Moment 6", tone: "slate" },
+    1: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC00119.JPG?updatedAt=1782978520825", alt: "Moment 1", tone: "navy" },
+    2: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC02544.JPG.jpeg?updatedAt=1782973583212", alt: "Moment 2", tone: "cream" },
+    3: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC02622.JPG.jpeg?updatedAt=1782973582743", alt: "Moment 3", tone: "rust" },
+    4: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC00100.JPG?updatedAt=1782978523087", alt: "Moment 4", tone: "olive" },
+    5: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC00424.JPG?updatedAt=1782978527070", alt: "Moment 5", tone: "sand" },
+    6: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC00626.JPG?updatedAt=1782978527184", alt: "Moment 6", tone: "slate" },
   },
 
   // ── Founder portrait ─────────────────────────────────────────────────────
   founder: {
     portrait: {
-      src: "",
+      src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/739ec94b-e36b-4716-9e26-6442fa05de36.png",
       alt: "Dr. Gundala Vijay Kumar, founder of GVK Foundation",
       tone: "navy",
     },
@@ -108,7 +112,7 @@ export const SITE_IMAGES = {
         3: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC00225.JPG?updatedAt=1782978527084", alt: "Career Empowerment gallery 3", tone: "cream" },
         4: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC00662.JPG?updatedAt=1782978519959", alt: "Career Empowerment gallery 4", tone: "slate" },
         5: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC00227.JPG?updatedAt=1782978527012", alt: "Career Empowerment gallery 5", tone: "olive" },
-        6: { src: "", alt: "Career Empowerment gallery 6", tone: "rust" },
+        6: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/image_2026-06-27_151522985.png?updatedAt=1782553529715", alt: "Career Empowerment gallery 6", tone: "rust" },
       },
     },
     "food-hunger-relief": {
@@ -118,12 +122,12 @@ export const SITE_IMAGES = {
         2: { src: "", alt: "Food & Hunger Relief — photo 2", tone: "cream" },
       },
       gallery: {
-        1: { src: "", alt: "Food & Hunger Relief gallery 1", tone: "rust" },
-        2: { src: "", alt: "Food & Hunger Relief gallery 2", tone: "cream" },
-        3: { src: "", alt: "Food & Hunger Relief gallery 3", tone: "olive" },
-        4: { src: "", alt: "Food & Hunger Relief gallery 4", tone: "navy" },
-        5: { src: "", alt: "Food & Hunger Relief gallery 5", tone: "sand" },
-        6: { src: "", alt: "Food & Hunger Relief gallery 6", tone: "slate" },
+        1: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC_9232.JPG?updatedAt=1782978522883", alt: "Food & Hunger Relief gallery 1", tone: "rust" },
+        2: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC_9153.JPG?updatedAt=1782978522803", alt: "Food & Hunger Relief gallery 2", tone: "cream" },
+        3: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC_9198.JPG?updatedAt=1782978522485", alt: "Food & Hunger Relief gallery 3", tone: "olive" },
+        4: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC_9148.JPG?updatedAt=1782978522477", alt: "Food & Hunger Relief gallery 4", tone: "navy" },
+        5: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC_9195.JPG?updatedAt=1782978521932", alt: "Food & Hunger Relief gallery 5", tone: "sand" },
+        6: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/DSC_9090.JPG?updatedAt=1782978521729", alt: "Food & Hunger Relief gallery 6", tone: "slate" },
       },
     },
     "sports-development": {
@@ -133,12 +137,12 @@ export const SITE_IMAGES = {
         2: { src: "", alt: "Sports Development — photo 2", tone: "navy" },
       },
       gallery: {
-        1: { src: "", alt: "Sports Development gallery 1", tone: "olive" },
-        2: { src: "", alt: "Sports Development gallery 2", tone: "navy" },
-        3: { src: "", alt: "Sports Development gallery 3", tone: "rust" },
-        4: { src: "", alt: "Sports Development gallery 4", tone: "cream" },
-        5: { src: "", alt: "Sports Development gallery 5", tone: "sand" },
-        6: { src: "", alt: "Sports Development gallery 6", tone: "slate" },
+        1: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/IMG_1008.JPG?updatedAt=1782978527054", alt: "Sports Development gallery 1", tone: "olive" },
+        2: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/IMG_0952.JPG?updatedAt=1782978526565", alt: "Sports Development gallery 2", tone: "navy" },
+        3: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/IMG_0994.JPG?updatedAt=1782978526336", alt: "Sports Development gallery 3", tone: "rust" },
+        4: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/IMG_1051.JPG?updatedAt=1782978525779", alt: "Sports Development gallery 4", tone: "cream" },
+        5: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/IMG_0979.JPG?updatedAt=1782978525345", alt: "Sports Development gallery 5", tone: "sand" },
+        6: { src: "https://ik.imagekit.io/icuvd8hly/Foundation%20website%20images/Programs%20images/IMG_1074.JPG?updatedAt=1782978519944", alt: "Sports Development gallery 6", tone: "slate" },
       },
     },
   },

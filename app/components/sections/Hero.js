@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useT } from "../../lib/i18n";
 import { PillButton } from "../primitives/PillButton";
 import { PhotoPlaceholder } from "../primitives/PhotoPlaceholder";
+import { HeroVideoTile } from "../primitives/HeroVideoTile";
 import { SITE_IMAGES } from "../../lib/siteImages";
 
 export function Hero() {
@@ -104,7 +105,12 @@ export function Hero() {
               border: "1px solid rgba(255,255,255,0.12)",
             }}
           >
-            <PhotoPlaceholder src={SITE_IMAGES.hero.image1.src} alt={SITE_IMAGES.hero.image1.alt} tone={SITE_IMAGES.hero.image1.tone} className="absolute inset-0" />
+            <HeroVideoTile
+              src={SITE_IMAGES.hero.image1.src}
+              alt={SITE_IMAGES.hero.image1.alt}
+              videoSrc={SITE_IMAGES.hero.image1.videoSrc}
+              tone={SITE_IMAGES.hero.image1.tone}
+            />
           </div>
           <div
             className="absolute left-0 top-[38%] w-[65%] h-[52%] rounded-2xl shadow-2xl overflow-hidden"
@@ -114,7 +120,12 @@ export function Hero() {
               border: "1px solid rgba(255,255,255,0.1)",
             }}
           >
-            <PhotoPlaceholder src={SITE_IMAGES.hero.image2.src} alt={SITE_IMAGES.hero.image2.alt} tone={SITE_IMAGES.hero.image2.tone} className="absolute inset-0" />
+            <HeroVideoTile
+              src={SITE_IMAGES.hero.image2.src}
+              alt={SITE_IMAGES.hero.image2.alt}
+              videoSrc={SITE_IMAGES.hero.image2.videoSrc}
+              tone={SITE_IMAGES.hero.image2.tone}
+            />
           </div>
           <div
             className="absolute right-5 bottom-5 rounded-2xl px-5 py-4 text-white shadow-xl"
